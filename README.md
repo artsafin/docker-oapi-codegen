@@ -27,3 +27,4 @@ $ ls -l $PWD
 ```
 
 See original [Usage](https://github.com/deepmap/oapi-codegen#using-oapi-codegen) on syntax.
+
