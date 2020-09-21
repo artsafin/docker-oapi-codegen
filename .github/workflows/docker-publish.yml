@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: artsafin/docker-oapi-codegen
+  IMAGE_NAME: docker-oapi-codegen
 
 jobs:
   # Run tests.
