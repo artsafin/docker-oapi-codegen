@@ -1,0 +1,1 @@
+# docker-oapi-codegen
