@@ -15,8 +15,9 @@ $ ls -l $PWD
 Generate go representation of the specification (types, client, server, spec by default):
 ```
 docker run --rm \
+        -u "$(id -u):$(id -g)" \
 	-v "${PWD}:/src" \
-	artsafin/docker-oapi-codegen openapi.yaml -o api.gen.go
+	artsafin/docker-oapi-codegen -o api.gen.go openapi.yaml
 ```
 
 Result:
