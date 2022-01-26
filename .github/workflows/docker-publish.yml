@@ -18,7 +18,7 @@ on:
     - cron:  '0 0 * * *'
 
 env:
-  IMAGE_NAME: ghcr.io/artsafin/docker-oapi-codegen/docker-oapi-codegen
+  IMAGE_NAME: ghcr.io/artsafin/docker-oapi-codegen
 
 jobs:
   # Run tests.
