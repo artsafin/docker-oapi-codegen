@@ -1,5 +1,5 @@
 # Build
-FROM golang:1.14-alpine as builder
+FROM golang:1.17-alpine as builder
 RUN apk --no-cache add git gcc g++ musl-dev
 RUN go get -u github.com/deepmap/oapi-codegen/cmd/oapi-codegen
 
